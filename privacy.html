@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>プライバシーポリシー｜KappaOS チャンネル分析ツール</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    font-family: system-ui, -apple-system, "Segoe UI", "Hiragino Sans", "Noto Sans JP", sans-serif;
+    line-height: 1.9; max-width: 46rem; margin: 0 auto; padding: 2.5rem 1.25rem 4rem;
+  }
+  h1 { font-size: 1.5rem; line-height: 1.5; }
+  h2 { font-size: 1.1rem; margin-top: 2.25rem; }
+  ul { padding-left: 1.25rem; }
+  .updated { opacity: .7; font-size: .9rem; }
+  nav { margin-top: 2.5rem; padding-top: 1.25rem; border-top: 1px solid rgba(128,128,128,.35); }
+  nav a { margin-right: 1.25rem; }
+  table { border-collapse: collapse; width: 100%; margin: 1rem 0; }
+  th, td { border: 1px solid rgba(128,128,128,.35); padding: .5rem .75rem; text-align: left; vertical-align: top; }
+</style>
+</head>
+<body>
+<h1>プライバシーポリシー</h1>
+<p class="updated">最終更新日：2026年8月19日</p>
+
+<p>
+「KappaOS チャンネル分析ツール」（以下「本ツール」）は、YouTubeチャンネル運営者本人が、
+自分自身のチャンネルの分析データを読み取るために使用する個人用のプログラムです。
+本ツールにおける情報の取り扱いを以下のとおり定めます。
+</p>
+
+<h2>1. 運営者</h2>
+<p>個人（YouTubeチャンネル「カッパえんちょー【公式】」「カッパ恨島」運営者）</p>
+
+<h2>2. 利用者の範囲</h2>
+<p>
+本ツールは一般に提供されるサービスではありません。利用者は運営者本人のみであり、
+運営者本人が所有・管理するYouTubeチャンネルに対してのみ使用します。
+</p>
+
+<h2>3. 取得する情報</h2>
+<p>Googleアカウントで認証を行った場合、以下の情報をYouTube APIから取得します。</p>
+<table>
+  <tr><th>権限</th><th>取得する情報</th></tr>
+  <tr>
+    <td><code>https://www.googleapis.com/auth/yt-analytics.readonly</code></td>
+    <td>視聴回数、総再生時間、平均視聴時間、視聴者維持率、登録者の増減、
+        トラフィックソース、視聴者層など、YouTube Analytics のレポート情報</td>
+  </tr>
+  <tr>
+    <td><code>https://www.googleapis.com/auth/youtube.readonly</code></td>
+    <td>自分のチャンネルおよび動画の公開情報、動画に寄せられたコメント</td>
+  </tr>
+</table>
+<p>
+いずれも<strong>読み取り専用</strong>の権限です。本ツールは動画、コメント、チャンネル設定に対する
+作成・変更・削除を一切行いません。
+</p>
+
+<h2>4. 情報の利用目的</h2>
+<p>
+取得した情報は、運営者が自分のチャンネルの状況を把握し、今後の動画制作の内容や公開方法を
+検討するためだけに利用します。それ以外の目的には利用しません。
+</p>
+
+<h2>5. 情報の保存</h2>
+<ul>
+  <li>認証トークンおよび取得したデータは、運営者本人のパソコンのローカル領域にのみ保存します。</li>
+  <li>外部のサーバー、クラウドストレージ、データベースへ送信・保管することはありません。</li>
+  <li>本ツールはウェブサービスを提供しておらず、第三者がデータへアクセスすることはできません。</li>
+</ul>
+
+<h2>6. 第三者への提供</h2>
+<p>
+取得した情報を第三者へ提供、販売、共有することはありません。
+広告配信、行動解析、機械学習モデルの学習など、第三者のサービスへの受け渡しも行いません。
+</p>
+
+<h2>7. Google API サービスユーザーデータポリシーへの準拠</h2>
+<p>
+本ツールによるGoogle APIから受け取った情報の使用および他アプリへの転送は、
+<a href="https://developers.google.com/terms/api-services-user-data-policy" rel="noopener">Google API サービスのユーザーデータに関するポリシー</a>
+（限定使用の要件を含む）に準拠します。
+</p>
+
+<h2>8. アクセス権の取り消し</h2>
+<p>
+本ツールへ付与した権限は、Googleアカウントの
+<a href="https://myaccount.google.com/permissions" rel="noopener">「サードパーティ製のアプリとサービス」</a>
+からいつでも取り消すことができます。取り消し後、本ツールはデータを取得できなくなります。
+ローカルに保存された認証トークンは、運営者が該当ファイルを削除することで消去されます。
+</p>
+
+<h2>9. Cookieおよびアクセス解析</h2>
+<p>
+本ページはCookieを使用せず、アクセス解析ツールも設置していません。
+</p>
+
+<h2>10. 本ポリシーの変更</h2>
+<p>
+本ポリシーの内容を変更する場合は、本ページに変更後の内容と最終更新日を掲載します。
+</p>
+
+<h2>11. お問い合わせ</h2>
+<p>本ツールおよび本ポリシーに関するお問い合わせ先：<br>
+<a href="mailto:kapaatiebukuro@gmail.com">kapaatiebukuro@gmail.com</a>
+</p>
+
+<nav>
+  <a href="./index.html">ホーム</a>
+  <a href="./terms.html">利用規約</a>
+</nav>
+</body>
+</html>

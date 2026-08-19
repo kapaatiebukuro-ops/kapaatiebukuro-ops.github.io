@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>KappaOS チャンネル分析ツール</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    font-family: system-ui, -apple-system, "Segoe UI", "Hiragino Sans", "Noto Sans JP", sans-serif;
+    line-height: 1.9; max-width: 46rem; margin: 0 auto; padding: 2.5rem 1.25rem 4rem;
+  }
+  h1 { font-size: 1.6rem; line-height: 1.5; margin-bottom: .25rem; }
+  h2 { font-size: 1.15rem; margin-top: 2.25rem; }
+  .lead { opacity: .75; margin-top: 0; }
+  ul { padding-left: 1.25rem; }
+  nav { margin-top: 2.5rem; padding-top: 1.25rem; border-top: 1px solid rgba(128,128,128,.35); }
+  nav a { margin-right: 1.25rem; }
+  footer { margin-top: 3rem; font-size: .9rem; opacity: .7; }
+</style>
+</head>
+<body>
+<h1>KappaOS チャンネル分析ツール</h1>
+<p class="lead">YouTubeチャンネル運営者本人が、自分のチャンネルの分析データを読み取るための個人用ツールです。</p>
+
+<h2>このツールについて</h2>
+<p>
+YouTubeチャンネル「カッパえんちょー【公式】」および「カッパ恨島」の運営者が、
+自分自身のチャンネルの視聴データを取得し、動画制作の改善に役立てるために使う個人用のプログラムです。
+一般に公開されているサービスではなく、運営者本人のパソコン上でのみ動作します。
+</p>
+
+<h2>できること</h2>
+<ul>
+  <li>自分のチャンネルの視聴回数、総再生時間、登録者の増減を取得する</li>
+  <li>流入経路や視聴者維持率など、YouTube Studioで見られる指標を取得する</li>
+  <li>自分のチャンネルの動画情報とコメントを取得する</li>
+</ul>
+
+<h2>できないこと</h2>
+<ul>
+  <li>動画・コメント・チャンネル設定の変更、投稿、削除（読み取り専用の権限しか使いません）</li>
+  <li>運営者本人以外のチャンネルのデータ取得</li>
+  <li>取得したデータの外部送信、第三者への提供</li>
+</ul>
+
+<h2>使用する権限</h2>
+<ul>
+  <li><code>yt-analytics.readonly</code> — YouTube Analytics のレポートを読み取る</li>
+  <li><code>youtube.readonly</code> — 自分のチャンネルと動画の情報を読み取る</li>
+</ul>
+<p>どちらも読み取り専用です。書き込み権限は要求しません。</p>
+
+<nav>
+  <a href="./privacy.html">プライバシーポリシー</a>
+  <a href="./terms.html">利用規約</a>
+</nav>
+
+<footer>KappaOS チャンネル分析ツール</footer>
+</body>
+</html>
